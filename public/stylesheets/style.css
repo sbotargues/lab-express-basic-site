@@ -1,0 +1,44 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Grenze Gotisch', cursive; 
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: center;
+  }
+  p{
+    text-align: justify;
+    margin: 0 15%;
+    font-weight: bolder;
+  }
+   
+    .images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  align-content: stretch;
+      }
+      
+img{
+    width: 350px;
+    margin: 100px;
+    box-shadow: 20px 20px 50px rgb(58, 57, 57);
+}
+
+a{
+    font-size: 1.5em;
+    text-align: end;
+    text-align: center;
+}
+
+.foto-portada{
+    display:block;
+    margin:auto;
+    margin-top: 60px;
+    width: 375px;
+}
